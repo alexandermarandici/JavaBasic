@@ -2,42 +2,46 @@
 * Java Basic Home work 1
 *
 *@author Alexandru Marandici
-*@version 06.09.2022
-*
+*@todo 05.09.2022
+*@date 06.09.2022
 */
 class HomeWorkJavaOne {
     public static void main(String[] args) {
-        int a = 25;
-        System.out.println(a);
-        int b = 20;
-        System.out.println(b);
-        int p = a + b * 2 ;
-        System.out.println(p);
         
-        int c = 5;
-        System.out.println(c);
-        int d = 3;
-        System.out.println(d);
-        int e = c + d;
-        System.out.println(e);
-        int f = c * d;
-        System.out.println(f);
-        float i = c / 3f;
-        System.out.println(i);
+        // Task 1
+        int a = 20;
+        int b = 30;
+        int c= (a + b) * 2;
+        int d = a * b;
+        System.out.println("Area = " + d);
+        System.out.println("Perimetr = " + c);
         
-        int[] array = new int[5];
-        array [0] = 4;
-        System.out.println(array [4]);
+    
         
-        int r = 27 ;
-        System.out.println(r);
-        System.out.println(Math.PI);
-        float v = 27 / 2f;
-        System.out.println(v);
-        float m = 3.14f * 13.5f * 13.5f;
-        System.out.println(m);
-        float l = 572.26f * 40f / 1f;
-        System.out.println(l);
+        // Task 2
+        
+        int e = 5;
+        int f = 3;
+        System.out.printf("%d + %d = %d\n", e, f, e + f);
+        System.out.printf("%d * %d = %d\n", e, f, e * f);
+        System.out.printf("%d - %d = %d\n", e, f, e - f); 
+        System.out.printf("%d / %d = %f\n", e, f, (float)e / f);
+        
+        // Task 3
+        
+        int[] array = {10, 20, 30, 40, 50};
+        System.out.printf("[%d, %d, %d, %d, %d]\n", array[0], array[1], array[2], array[3], array[4]);
+        
+        
+        
+        // Task 4
+        
+        int Diametr = 27;
+        double Radius = Diametr / 2d;
+        double Area = Math.PI * Radius * Radius;
+        double Calories = Area * 40;
+        System.out.printf("Pizza %d cm in Diametr has %.2f Calories", Diametr, Calories);
+        
         
         
         
