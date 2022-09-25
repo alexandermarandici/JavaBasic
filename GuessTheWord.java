@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 /**
-* Java Basic Home work 4
+* Java Basic Home work 5
   *
  * @author Alexandru Marandici
  * @todo 19.09.2022
